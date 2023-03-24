@@ -1,0 +1,46 @@
+.Login {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../../assets/login1.jpg);
+    height: calc(100vh - 1px);
+    background-size: cover;
+    background-position: 50% 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-top: 15px;
+}
+
+.loginForm {
+    padding: 2rem;
+    background: linear-gradient(rgba(0, 0, 0, 0.85),
+            rgba(0, 0, 0, 0.85));
+    border-radius: 10px;
+    width: 400px;
+    /* height: 490px; */
+    animation: 0.5s zoomin ease-in;
+    margin-top: 20px;
+    padding-top: 20px;
+}
+
+.loginForm h1 {
+    color: white;
+    text-align: center;
+
+}
+
+.loginForm input,
+.loginForm input:focus {
+    background: transparent;
+    color: white;
+
+}
+
+@keyframes zoomin {
+    0% {
+        transform: scale(0);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
